@@ -9,7 +9,7 @@
                  foreach($query as $row) { ?>
                       <table class="table table-hover table-striped table-bordered">
                           <tbody>
-                              <td><img src="<?php echo base_url('assets/images/bakpia/'.$row->gambar);?>"></td>
+                              <td><img src="<?php echo base_url('assets/images/kue/'.$row->gambar);?>"></td>
                               <td><?php echo $row->rasa;?></td>
                               <td><?php echo $row->harga;?></td>
                               <td><?php echo $row->keterangan;?></td>
@@ -27,4 +27,4 @@
         </div>
     </section>
 
-    <a type="button" href="<?php echo base_url('index.php/bakpia/add_rasa');?>" style="color: white">TAMBAH</a>
+    <a type="button" href="<?php echo base_url('index.php/kue/add_rasa');?>" style="color: white">TAMBAH</a>

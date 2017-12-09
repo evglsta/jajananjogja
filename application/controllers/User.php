@@ -7,12 +7,20 @@ class User extends CI_Controller {
 	{
 		parent ::__construct();	
 		$this->load->model('m_user');
+		$this->load->model('m_bakpia');
 	}
 
 	function index()
 	{
 		$this->load->view('components/header');
 		$this->load->view('index');
+		$this->load->view('components/footer');
+	}
+
+	function daftar()
+	{
+		$this->load->view('components/header');
+		$this->load->view('user/index');
 		$this->load->view('components/footer');
 	}
 
@@ -25,7 +33,7 @@ class User extends CI_Controller {
 
 	function bakpia()
 	{
-		$data['query'] = $this->mupload->get_allimage(); //query dari model
+		$data['query'] = $this->m_bakpia->get_allimage();
 		$this->load->view('components/header');
 		$this->load->view('user/bakpia/index',$data);
 		$this->load->view('components/footer');
@@ -33,8 +41,9 @@ class User extends CI_Controller {
 
 	function rasa()
 	{
+		$data['query'] = $this->m_bakpia->get_allimagerasa();
 		$this->load->view('components/header');
-		$this->load->view('user/bakpia/rasa');
+		$this->load->view('user/bakpia/rasa',$data);
 		$this->load->view('components/footer');
 	}
 }

@@ -16,7 +16,7 @@
 <div class="panel panel-default">
   <div class="panel-heading"><b>Form Upload Image</b></div>
   <div class="panel-body">
-     <form action="<?php echo base_url('index.php/bakpia/insert');?>" method="post" enctype="multipart/form-data">
+     <form action="<?php echo base_url('index.php/kue/insert');?>" method="post" enctype="multipart/form-data">
        <table class="table table-striped">
          <tr>
           <td style="width:15%;">File Foto</td>
