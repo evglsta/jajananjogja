@@ -8,7 +8,7 @@
             <div class="row home-content__main">
             	<?php foreach ($query as $row) { ?>
             	<div class="card" style="width: 30%; float: left" align="center">
-  					<img class="card-img-top" src="<?php echo base_url('assets/images/bakpia/'.$row->gambar);?>">
+  					<img class="card-img-top" src="<?php echo base_url('assets/images/geplak/'.$row->gambar);?>">
   					<div class="card-body">
     					<h4 class="card-title" style="color: white"><?php echo $row->nama;?></h4>
     					<a href="<?php echo base_url('index.php/user/rasa/'.$row->id);?>" class="btn btn-primary">Lihat</a>
@@ -19,4 +19,4 @@
 		</div>
 
 	</section>
-  <a type="button" href="<?php echo base_url('index.php/bakpia/add');?>" style="color: white">TAMBAH</a>
+  <a type="button" href="<?php echo base_url('index.php/geplak/add');?>" style="color: white">TAMBAH</a>
