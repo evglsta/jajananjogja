@@ -11,7 +11,7 @@
   					<img class="card-img-top" src="<?php echo base_url('assets/images/bakpia/'.$row->gambar);?>">
   					<div class="card-body">
     					<h4 class="card-title" style="color: white"><?php echo $row->nama;?></h4>
-    					<a href="<?php echo base_url('index.php/user/rasa/'.$row->id);?>" class="btn btn-primary">Lihat</a>
+    					<a href="<?php echo base_url('index.php/user/rasa');?>" class="btn btn-primary">Lihat</a>
   					</div>
 				</div>
 				<?php } ?>
@@ -19,4 +19,4 @@
 		</div>
 
 	</section>
-  <a type="button" href="<?php echo base_url('index.php/bakpia/add');?>" style="color: white">TAMBAH</a>
+  <a type="button" href="<?php echo base_url('index.php/upload/add');?>" style="color: white">TAMBAH</a>
