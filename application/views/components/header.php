@@ -48,7 +48,6 @@
                     <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
                 </ul>
     
-                <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p>
     
                 <ul class="header-nav__social">
                     <li>
@@ -61,11 +60,9 @@
                         <a href="#"><i class="fa fa-instagram"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-behance"></i></a>
+                        <a href="#"><i class="fa fa-github"></i></a>
                     </li>
-                    <li>
-                        <a href="#"><i class="fa fa-dribbble"></i></a>
-                    </li>
+                 
                 </ul>
             </div> 
         </nav> 

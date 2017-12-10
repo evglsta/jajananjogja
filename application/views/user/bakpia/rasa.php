@@ -10,9 +10,9 @@
                       <table class="table table-hover table-striped table-bordered">
                           <tbody>
                               <td><img src="<?php echo base_url('assets/images/bakpia/'.$row->gambar);?>"></td>
-                              <td><?php echo $row->rasa;?></td>
-                              <td><?php echo $row->harga;?></td>
-                              <td><?php echo $row->keterangan;?></td>
+                              <td>rasa : <?php echo $row->rasa;?>  </td>
+                              <td>harga : <?php echo $row->harga;?>  </td>
+                              <td>keterangan : <?php echo $row->keterangan;?>  </td>
 
                               
                           </tbody>

@@ -7,14 +7,14 @@
             <div class="col-six tab-full left footer-desc">
 
                 <div class="footer-logo"></div>
-                Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt. Quaerat voluptas autem necessitatibus vitae aut.
+                Dengan memesan melalui website ini, anda membantu kami untuk semakin melangkah kedepan :)
 
             </div>
 
             <div class="col-six tab-full right footer-subscribe">
 
-                <h4>Get Notified</h4>
-                <p>Quia quo qui sed odit. Quaerat voluptas autem necessitatibus vitae aut non alias sed quia. Ut itaque enim optio ut excepturi deserunt iusto porro.</p>
+                <h4>Contact US</h4>
+                <p>08584318xxxx</p>
 
                 <div class="subscribe-form">
                     <form id="mc-form" class="group" novalidate="true">
@@ -32,8 +32,8 @@
 
             <div class="col-twelve">
                 <div class="copyright">
-                    <span>© Copyright Glint 2017</span> 
-                    <span>Site Template by <a href="https://www.colorlib.com/">Colorlib</a></span>  
+                    <span>© Copyright JajananJogja 2017</span> 
+                    <span>Visit Us <a href="#">JajananJogja</a></span>  
                 </div>
 
                 <div class="go-top">

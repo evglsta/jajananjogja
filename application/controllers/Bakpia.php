@@ -89,7 +89,7 @@ class Bakpia extends CI_Controller
                 redirect('user/rasa'); //jika berhasil maka akan ditampilkan view vupload
             }else{
                 echo "GAGAL";
-                redirect('upload/add'); //jika gagal maka akan ditampilkan form upload
+                redirect('index.php/bakpia/add_rasa'); //jika gagal maka akan ditampilkan form upload
             }
         }
     }

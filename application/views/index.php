@@ -3,12 +3,12 @@
         <div class="shadow-overlay"></div>
         <div class="home-content">
             <div class="row home-content__main">
-                <h3>Welcome to Glint</h3>
+                <h3>Welcome to JajananJogja</h3>
                 <h1>
-                    We are a creative group <br>
-                    of people who design <br>
-                    influential brands and <br>
-                    digital experiences.
+                    Buy now, We Send ! <br>
+                    All we got is Happiness. <br>
+                    Tidak sampai dalam 2 jam ? <br>
+                    Uang anda kembali :)
                 </h1>
                 <div class="home-content__buttons" align="center">
                     <a href="<?php echo base_url('index.php/user/daftar');?>" class="btn btn--stroke">
